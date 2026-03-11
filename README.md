@@ -1,39 +1,17 @@
-# Firefox/Chrome extension: Copy page title (or selection) and url to clipboard via context menu
-
-This Firefox/Chrome extension adds an item to the context menu which allows you to __copy the title and the url__ of the current page to clipboard. If any __text is selected on the page__, the selected text is copied instead of the title of the page (the url is always included).
-
-This is useful when emailing/sharing links or collecting citations/quotes from the web.
-
-It should serve as a basic replacement for the fantastic ["QuoteURLText" extension](https://addons.mozilla.org/en-US/firefox/addon/quoteurltext/) by Jay Palat, which had more functionality but is no longer supported by Firefox.
-
-
-## Requirements
-
-Firefox (Quantum) 57 or later / Chrome 63 or later.
-Developed and tested in Firefox 58 and Chrome 63.
-
-## Download
-
-Download for Firefox:
-https://addons.mozilla.org/en-US/firefox/addon/copy-page-title-and-url/
-
-Download for Chrome:
-https://chrome.google.com/webstore/detail/copy-page-title-and-url/mcnddmglmjbomnfgkehnnblncllkaedm
+# Chrome extension: Copy selection and automatically append URL to clipboard
 
 
 ## How to use
 
-* When browsing any web page:
+* select text 
+* Alt+C or right click for a new item in the context menu: "Copy selection and url"
+* text in the format of "`[selected text](url)`" will be copied to the clipboard. 
 
-Right-click the page. In the context menu, a new item will be displayed: "Copy page title and url". This command will copy the title of the current page and its URL to clipboard.
-
-* When (some) text on the page is selected:
-
-Right-click the selected text. In the context menu, a new item will be displayed: "Copy selection and url". This command will copy the selected text and the URL (but not the page title) to clipboard.
-
-If you hold down the Control or Shift key while clicking the menu item, the extension will copy the title of the page as well as the selected text and the URL.
 
 ## Version history
+
+2.0:
+- Rewritten for compatibility with Chrome manifest version 3. 
 
 1.3:
 - Rewritten for compatibility with Chrome. Now the same code can be used to generate the extension for both browsers.
@@ -41,12 +19,3 @@ If you hold down the Control or Shift key while clicking the menu item, the exte
 
 1.2:
 - Initial release, Firefox only
-
-## Author and links
-
-Marek Jedliński
-marek.jedlinski@gmail.com
-
-github:
-https://github.com/marekjedlinski/webext-copy-title-url
-

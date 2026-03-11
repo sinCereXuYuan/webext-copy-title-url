@@ -1,11 +1,19 @@
 # Chrome extension: Copy selection and automatically append URL to clipboard
 
 
+## How to install 
+
+1. Go to chrome://extensions
+2. Enable Developer Mode
+3. Click Load unpacked
+4. Select the extension folder
+
+
 ## How to use
 
-* select text 
-* Alt+C or right click for a new item in the context menu: "Copy selection and url"
-* text in the format of "`[selected text](url)`" will be copied to the clipboard. 
+1. select text 
+2. Alt+C or right click for a new item in the context menu: "Copy selection and url"
+3. text in the format of "`[selected text](url)`" will be copied to the clipboard. 
 
 
 ## Version history

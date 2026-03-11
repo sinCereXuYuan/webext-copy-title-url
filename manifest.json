@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Copy page title and url",
-  "short_name": "Copy title and url",
-  "description": "Add a context menu item to copy page title (or selected text) and url to clipboard.",
+  "name": "Copy selected text and url",
+  "short_name": "Copy selected text and url",
+  "description": "Add a shortcut and context menu item to copy selected text and url to clipboard.",
   "version": "2.0",
   "homepage_url": "https://github.com/sinCereXuYuan/webext-copy-title-url",
   "author": "Lei & Marek Jedliński",
